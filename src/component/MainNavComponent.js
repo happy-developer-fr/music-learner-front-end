@@ -15,7 +15,7 @@ class MainNav extends Component {
             <Nav className="mr-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#songs">Songs</Nav.Link>
-              <Nav.Link href="#wohoo">Wohoo</Nav.Link>
+              <Nav.Link href="#wohoo">Woohoo</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
