@@ -1,15 +1,24 @@
 import React from 'react';
 import { Component } from "react";
+import { Navbar } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+import { NavDropdown } from 'react-bootstrap';
 
 class MainNav extends Component {
   render() {
     return (
       <div>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-          <div class="container">
-            <a class="navbar-brand" href="#">Music Learner</a>
-          </div>
-        </nav>
+        <Navbar bg="dark" color="dark" variant="dark" expand="lg" className="col-12">
+          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#songs">Songs</Nav.Link>
+              <Nav.Link href="#wohoo">Wohoo</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
       </div>
     )
   }

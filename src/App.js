@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <MainNav />
-      <div className="container">
-        <img src="https://happydevelopper.s3.eu-west-3.amazonaws.com/woohoo.jpg"></img>
+      <div className="container col-8 offset-2">
+        <img className="img-fluid rounded" src="https://happydevelopper.s3.eu-west-3.amazonaws.com/woohoo.jpg" alt="woohoo"></img>
       </div>
     </div>
   );
