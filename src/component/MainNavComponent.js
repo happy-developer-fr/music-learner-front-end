@@ -2,14 +2,13 @@ import React from 'react';
 import { Component } from "react";
 import { Navbar } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
-import { NavDropdown } from 'react-bootstrap';
 
 class MainNav extends Component {
   render() {
     return (
       <div>
         <Navbar bg="dark" color="dark" variant="dark" expand="lg" className="col-12">
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="#home">Music Learner</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
