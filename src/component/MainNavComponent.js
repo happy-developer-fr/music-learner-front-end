@@ -7,7 +7,7 @@ class MainNav extends Component {
   render() {
     return (
       <div>
-        <Navbar bg="dark" color="dark" variant="dark" expand="lg" className="col-12">
+        <Navbar bg="dark" color="dark" variant="dark" expand="lg" className="col-12" fixed="top">
           <Navbar.Brand href="#home">Music Learner</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
