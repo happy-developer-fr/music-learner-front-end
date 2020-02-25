@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import {Redirect, Route, Switch} from 'react-router-dom'
+import {Redirect, Route, Switch} from 'react-router-dom';
 import {SONGS} from "../shared/songs";
 import Song from "./SongComponent";
 import Home from "./HomeComponent";
